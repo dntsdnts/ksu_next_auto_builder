@@ -312,7 +312,7 @@ jobs:
 
 
       - name: 📤 Upload artifacts
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: KernelSU-Next-Hayasaka-sdm845-serie-${{ env.KERNEL_VERSION }}-${{ env.DATE }}
           path: |

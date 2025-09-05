@@ -30,7 +30,7 @@ jobs:
         run: |
           cd kernel_xiaomi_sdm845
           rm -rf KernelSU-Next
-          git clone --depth=1 https://github.com/KernelSU-Next/KernelSU-Next -b next-susfs
+          git clone --depth=1 https://github.com/pershoot/KernelSU-Next -b next-susfs
 
       - name: 📥 Clone AnyKernel3
         run: |
